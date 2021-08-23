@@ -1,0 +1,474 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,400;1,500;1,700&display=swap');
+body{
+	font-family: 'Roboto', sans-serif;
+}
+.banner-section{
+	background-image: url(img/banner.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 600px;
+
+}
+.banner-section button{
+	background: #fb527a;
+	color: #fff;
+	padding: 10px 30px;
+	margin: 10px;
+	box-shadow: none;
+	font-weight: 700;
+	border-radius: 5px;
+	outline: none;
+	border: 1px solid transparent;
+}
+.banner-section .row{
+	padding-top: 150px;
+}
+.container h1{
+	margin-top: 40px;
+}
+.service .card{
+	margin: 20px 10px;
+	transition: all 0.5s ease;
+	height: 250px;
+}
+.service .card:hover{
+	border-top: 5px solid red;
+
+}
+.card p{
+	font-size: 15px;
+}
+.img-hover{
+	text-align: center;
+	margin-bottom: 20px;
+}
+.tutorials{
+	margin: 20px 0px;
+}
+.work{
+	background: #f7f3f7;
+	height: 600px;
+}
+.work .card{
+	margin: 150px 10px;
+	height: 360px;
+}
+.work .card-custom{
+	background: #ff517b;
+	color: #fff;
+}
+.work span{
+	background: #ff517b;
+	width: 50px;
+    height: 4px;
+    display: block;
+    margin-bottom: 20px !important;
+    margin-left: 40%;
+}
+.work-icon{
+	text-align: center;
+	margin-bottom: 10px;
+	margin-top: 40px;
+	font-size: 15px;
+}
+.work-icon i{
+	font-size: 30pt;
+}
+.team{
+	padding-top: 100px; 
+}
+.team i{
+	color: #ff517b;
+	padding: 20px 5px;
+	font-size: 30pt;
+}
+.team .team-icon{
+	background: #ff517b;
+	width: 250px;
+	height: 70px;
+	margin-top: 40px;
+	margin-left: 33%;
+}
+.team .team-icon i{
+	color: #fff;
+	padding: 15px;
+}
+.skill-bar{
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.progress{
+	background-color: #E9C7C7;
+	border: 0;
+	overflow: visible;
+	
+	height: 30px;
+}
+.progress-bar{
+	background-color: #ff517b;
+	position: relative;
+}
+.progress-bar span{
+	position: absolute;
+	font-size: 11px;
+	font-weight: 100;
+	background: #212226;
+	padding: 3px;
+	left: 97%;
+	top: -47px;
+	
+}
+.image-overlay{
+	position: relative;
+}
+.card-img-overlay{
+	position: relative;
+}
+.card-img-overlay p{
+	position: absolute;
+    top: 0;
+    left: 50%;
+    width: 50%;
+    height: 100%;
+    transform: translate(-300px, -350px);
+}
+.card-img-overlay h4{
+	position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50px, -280px);
+}
+.card-img-overlay a{
+	position: absolute;
+    top: 0;
+    left: 50%;
+    color: #ff517b;
+    font-size: 20px;
+    transform: translate(-10px, -250px);
+}
+.feature .image-over{
+	position: relative;
+	margin-top: 40px;
+}
+
+.feature .image-over .image-1{
+	position: absolute;
+	z-index: 1;
+	position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 50%;
+    height: auto;
+    width: auto;
+    transform: translate(-110px, -10px);
+}
+.feature .image-over .image-2{
+	position: absolute;
+}
+.feature i{
+	height: 80px;
+    width: 80px;
+    font-size: 20pt;
+    padding: 15px;
+    margin-right: 10px;
+    border: 10px solid #eff3f7;
+    border-radius: 50px;
+    text-align: center;
+}
+.feature #differnt{
+	background: #ff517b;
+    color: #fff;
+    border: 10px solid #eff3f7;
+    border-radius: 50px;
+}
+.feature #space-left{
+
+}
+
+
+
+
+
+.kristiana{
+	margin-top: 80px;
+	margin-bottom: 40px;
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ff557b+0,ffc373+50,ff557b+100 */
+background: #ff557b; /* Old browsers */
+background: -moz-linear-gradient(left,  #ff557b 0%, #ffc373 50%, #ff557b 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  #ff557b 0%,#ffc373 50%,#ff557b 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  #ff557b 0%,#ffc373 50%,#ff557b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff557b', endColorstr='#ff557b',GradientType=1 ); /* IE6-9 */
+ height: 650px;
+ width: 100%
+
+}
+.kristiana p{
+	color: #cfcecf;
+}
+
+.kristiana span{
+	background: #e1dfe1;
+	width: 50px;
+    height: 2px;
+    display: block;
+    margin-bottom: 10px !important;
+    margin-left: 46%;
+}
+.kristiana .kristiana-icon{
+	margin: 0 45%;
+}
+.kristiana #kristiana-card{
+	margin-top: 160px;
+
+}
+.kristiana .kristiana-icon-2{
+	background: #ff517b;
+	width: 200px;
+	height: 50px;
+	margin-top: 40px;
+	margin-left: 33%;
+	font-size: 30px;
+	color: white;
+}
+.kristiana .kristiana-icon-2 i{
+	color: #fff;
+	padding: 10px;
+}
+.purchase{
+	margin: 50px 0;
+}
+.purchase .card{
+	height: 400px;
+}
+.purchase h5{
+	margin: 30px 0;
+}
+.purchase p{
+	color: #cfcecf;
+}
+.purchase span{
+	font-size: 30px;
+	font-weight: 600;
+}
+.purchase .btn-btn{
+	background: #ff517b;
+	padding: 10px 20px;
+	border: 0 ;
+	color: #fff;
+	border-radius: 30px;
+	margin: 10px 0;
+
+}
+.purchase #purchase-standard{
+	background: #ff517b;
+	color: #fff; 
+}
+.purchase #btn-standard{
+	background: #fff;
+	color: #ff517b;
+}
+.counter{
+	background: url(img/counter-bg.png);
+	height: 500px;
+	width: 100%;
+	margin: 80px 0;
+	color: #fff;
+}
+.client{
+	margin: 40px 0;
+}
+.client img{
+	height: 100px;
+	width: 100%;
+	margin: 40px 0;
+}
+.latest-news{
+	background: #f7f3f7;
+	/*height: 650px;*/
+	width: 100%;
+	padding-bottom: 40px;
+}
+.latest-news img{
+	height: auto;;
+}
+.latest-news .news-card{
+	margin: 0px 15px;
+}
+.latest-news .news-dash{
+	background: black;
+	width: 50px;
+    height: 5px;
+    display: block;
+    margin-bottom: 20px !important;
+}
+.latest-news h5{
+	color: #fb527a;
+}
+.latest-news .top{
+	margin-top: 40px;
+	text-align: center;
+}
+.touch{
+	background: url(img/get-in-touch-bg.png);
+	height: 400px;
+	width: 100%;
+	background-repeat: no-repeat;
+	color: #fff;
+}
+.touch h2{
+	padding: 100px 0;
+}
+.contact{
+	height: 650px;
+}
+.contact .card{
+	height: 550px;
+}
+.contact .card p{
+	font-weight: bold;
+}
+.contact .card input{
+	margin: 10px 5px;
+    border: 1px solid #e9e8e9;
+    border-radius: 30px;
+    height: 40px;
+    padding-left: 10px;
+}
+.contact .card textarea{
+	padding: 20px;
+    margin: 15px 10px;
+    width: 570px;
+    border: 1px solid #e9e8e9;
+    border-radius: 30px;
+}
+.contact .card button{}
+
+
+footer{
+	background: #212021;
+	height: 430px;
+	width: 100%;
+	color: #fff;
+	padding: 150px 0;
+}
+.footer-section i{
+	font-size: 30px;
+    margin: 20px 10px;
+    height: 80px;
+    width: 80px;
+    border: 5px solid white;
+    border-radius: 50%;
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+}
+/*Responsive Tab*/
+#service-2{
+	background-color: #f4f4f4;
+	margin-top: 90px;
+	padding-bottom: 40px;
+}
+#service-tab ul{
+	margin-bottom: 40px;
+}
+#service-tab ul li{
+	padding: 5px 30px;
+}
+#service-tab ul li a{
+	font-size: 14px;
+	color: #212226;
+	text-transform: uppercase;
+	padding: 0;
+	text-decoration: none;
+	font-weight: bold; 
+}
+#service-tab ul li.r-tabs-state-active a{
+	color: #fb527a;
+	font-weight: 700;
+	border-bottom: 10px solid #fb527a;
+	padding-bottom: 5px;
+	transition: border-color 300ms linear;
+}
+.service-tab .col-md-6{
+	padding: 12px;
+	background: white;
+}
+.service-tab img{
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	padding: 10px;
+}
+.service-tab .tab-bg{
+	
+	padding: 60px 30px;
+}
+.service-tab h2{
+	font-size: 48px;
+	font-weight: 700;
+	color: black;
+	margin-bottom: 20px;
+	opacity: 80%;
+}
+.service-tab h3{
+	margin-bottom: 20px;
+	font-size: 25px;
+	font-weight: 500;
+	color: black;
+	opacity: 80%;
+}
+.service-tab p{
+	margin-bottom: 40px;
+	font-size: 15px;
+	opacity: 80%;
+}
+.service-tab .tab-bg a{
+	background: #fb527a;
+	color: #fff;
+	border: 1px solid #fb527a;
+	border-radius: 30px;
+	padding: 10px 40px;
+	transition: all 0.5s ease;
+}
+.service-tab .tab-bg a:hover{
+	border: 2px solid #fb527a;
+	background: black
+}
+
+.project img{
+	height: 270px;
+	width: 290px;
+	padding: 0;
+	margin: 0;
+}
+.project .col-md-3{
+	padding: 0;
+	
+}
+.project ul{
+	margin-bottom: 40px;
+	margin-bottom: 50px !important;
+}
+.project ul li{
+	padding: 5px 30px;
+
+}
+.project ul li a{
+	font-size: 14px;
+	color: #212226;
+	text-transform: uppercase;
+	padding: 0;
+	text-decoration: none;
+	font-weight: bold; 
+
+}
+.project ul li.r-tabs-state-active a{
+	color: #fb527a;
+	font-weight: 700;
+	border-bottom: 10px solid #fb527a;
+	padding-bottom: 5px;
+	transition: border-color 300ms linear;
+}
